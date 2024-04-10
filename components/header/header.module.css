@@ -1,0 +1,15 @@
+.container {
+  background-color: aqua;
+  width: 100%;
+
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-template-columns: 2fr 1fr;
+  gap: 0px 0px;
+
+  .right {
+    display: flex;
+    flex-direction: column;
+    gap: ;
+  }
+}
